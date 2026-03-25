@@ -1,0 +1,19 @@
+# buildify-ai route structure
+
+## Backend API routes (Next.js App Router)
+
+- POST /api/users/sync-user
+  - File: app/api/users/sync-user/route.ts
+  - Purpose: create or return existing user in database using Clerk auth and Prisma.
+
+## Frontend page routes (Next.js App Router)
+
+- GET /
+  - File: app/page.tsx
+- GET /StartBuilding
+  - File: app/StartBuilding/page.tsx
+
+## Static/Other
+
+- globals.css (app/globals.css)
+- navbar component (app/components/layout/Navbar.tsx)
