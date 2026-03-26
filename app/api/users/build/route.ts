@@ -30,6 +30,8 @@ Rules:
 - No explanations
 - No markdown
 - Only JSON
+- Do not use external libraries.
+- Only React + Tailwind CSS.
 
 User request:
 ${userPrompt}

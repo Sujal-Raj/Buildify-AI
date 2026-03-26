@@ -9,7 +9,7 @@ export default function Home() {
   const logos = ["▲", "◆", "✦", "▲", "◆"];
 
   return (
-    <section className="bg-[radial-gradient(circle_300px,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.4)_30%,rgba(14,15,28,1)_100%)] min-h-[90vh] flex flex-col relative">
+    <section className="bg-[radial-gradient(circle_400px,rgba(255,255,255,0.2)_0%,rgba(255,255,255,0.23)_30%,rgba(14,15,28,1)_100%)] min-h-[90vh] flex flex-col relative">
       {/* Hero */}
       <div className="flex-1 flex flex-col items-center justify-center text-center px-4 sm:px-6 pt-28 pb-20">
         {/* Badge */}
@@ -60,7 +60,7 @@ export default function Home() {
               Generate
             </button>
           </div> */}
-          <Link href={"/start-Building"} className=" bg-linear-to-r from-[#3b83f677] to-[#3B82F6] hover:bg-[#3B82F6] hover:scale-110 text-white text-md px-5 py-2 rounded-full transition-colors duration-200 hover:cursor-pointer">
+          <Link href={"/start-building"} className=" bg-linear-to-r from-[#3b83f677] to-[#3B82F6] hover:bg-[#3B82F6] hover:scale-110 text-white text-md px-5 py-2 rounded-full transition-colors duration-200 hover:cursor-pointer">
             Start Building
           </Link>
 
@@ -79,10 +79,10 @@ export default function Home() {
         </div>
         <div className="">
 
-             <p className=" absolute bottom-4 left-1/2 transform -translate-x-1/2  text-center text-xs text-gray-200  uppercase tracking-widest">
+             <p className=" absolute bottom-4 left-1/2 transform -translate-x-1/2  text-center text-xs text-gray-200  uppercase tracking-widest underline">
           Empowering the Next Generation of Architects
-          <hr />
         </p>
+          <hr />
         </div>
       </div>
     </section>
